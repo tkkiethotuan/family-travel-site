@@ -7064,3 +7064,18 @@
 
 }));
 //# sourceMappingURL=bootstrap.bundle.js.map
+
+
+// my code
+
+function welcome_next() {
+  alert("Welcome")
+  window.location.replace("/home/")
+}
+
+function welcome_exit() {
+  var isExit = confirm("Exit ?")
+  if (isExit == true) { 
+    window.location.replace("https://google.com")
+  }
+}

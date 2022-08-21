@@ -10917,6 +10917,7 @@ textarea.form-control-lg {
 
 .btn {
   min-width: 100px;
+  margin: 5px 0;
 }
 
 .center-item {
